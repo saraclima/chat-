@@ -16,7 +16,7 @@
             .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
 
         </style>
-        {#<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">#}
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -27,7 +27,11 @@
         <script src="https://use.typekit.net/hoy3lrg.js"></script>
         <script>try{Typekit.load({ async: true });}catch(e){}</script>
         <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css'><link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.2/css/font-awesome.min.css'>
-        <style class="cp-pen-styles">body {
+        <style class="cp-pen-styles">
+            .link-here {
+                color: white!important;
+            }
+            body {
                 /*display: flex;*/
                 align-items: center;
                 justify-content: center;
@@ -749,7 +753,7 @@
                                             <p class="preview">{{ user.login }}</p>
                                         </div>
                                         <div class="text-right">
-                                            <a href="/index.php/{{ user.id }}">Envoyer message</a>
+                                            <a class="link-here" href="/index.php/{{ user.id }}">Envoyer message</a>
                                             <i class="fa fa-message" aria-hidden="true"></i>
                                         </div>
                                     </div>
