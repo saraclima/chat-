@@ -1,0 +1,19 @@
+{
+    "name": "saraclima/chat",
+    "description": "Chat with mvc, php, mysql",
+    "require": {
+        "php": ">=7.0",
+        "twig/twig": "^2.4",
+        "twbs/bootstrap": "^4.2"
+    },
+    "authors": [
+        {
+            "name": "saraclima",
+            "email": "clima.sara@gmail.com"
+        }
+    ],
+    "autoload":{
+            "psr-4":{"Chat\\":"src/"}
+    },
+    "minimum-stability": "dev"
+}
